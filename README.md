@@ -1,1 +1,1 @@
-# mokausimokausi
+# mokymas

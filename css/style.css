@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+
+    /* Laura starts
+    COLORS: #16ADFC;
+
+
+    */
+    font-family: 'Raleway', sans-serif;
+    /* Laura ends */
+
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+.clear {clear: both;}
+.pull-left {float: left;display: block;}
+.pull-right {float: right;display: block;}
+.text-left {display: block;text-align: left;}
+.text-right {display: block;text-align: right;}
+.text-center {display: block;text-align: center;}
+.pull-center {display: block;float: none !important;margin: auto;
+}
+
+/* Laura starts */
+body{
+
+background-color: #f2f2f2;
+color: #222222;
+}
+
+.header {
+max-width:1200px;
+}
+
+
+.container{
+width:1346px;
+display: inline-block;
+position: fixed;
+padding-left: 55px;
+padding-right: 55px;
+}
+
+@media (min-width: 1260px){
+.container{
+max-width:1346px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+/*nevisai supratau, ka padariau ..*/
+
+.logo{
+padding: 30px;
+height: 100px;
+width: auto;
+float:left;
+}
+
+nav{
+  padding-left: 35%;
+}
+
+nav ul{
+float: left;
+}
+
+nav li {
+  display:inline-block;
+  list-style: none;
+}
+
+nav a {
+font-size: 1.5em;
+display: block;
+font-weight: bold;
+color: #000;
+padding: 30px 20px;
+text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  nav a {
+    float: left;
+    font-size: .9em;
+  }
+}
+
+.icons {
+display: inline-block;
+float:right;
+padding: 30px;
+}
+
+.icons a{
+  font-size: 1.5em;
+  color: #16ADFC;
+  text-decoration: none;
+  padding: 15px;
+}
+@media screen and (max-width: 800px) {
+  .icons a {
+    font-size: .9em
+  }
+}
+.slider{
+height: 100%;
+width: auto;
+background-position: top;
+background-repeat: no-repeat;
+}
+/* Laura ends */
