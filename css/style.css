@@ -37,12 +37,12 @@ color: #222222;
 }
 
 .header {
-max-width:1260px;
+max-width:1346px;
 }
 
 
 .container{
-width:1346px;
+width:1290px;
 display: inline-block;
 position: fixed;
 padding-left: 55px;
@@ -51,7 +51,7 @@ padding-right: 55px;
 
 @media (min-width: 1260px){
 .container{
-max-width:1346px;
+max-width:1290px;
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -66,7 +66,7 @@ float:left;
 }
 
 nav{
-  padding-left: 35%;
+  padding-left: 33%;
 }
 
 nav ul{
@@ -111,10 +111,11 @@ padding: 30px;
     font-size: .9em
   }
 }
-.slider{
-width: 100vh;
-background-position: top;
+.slider img{
+height: 100vh;
+background-position: center;
 background-repeat: no-repeat;
+background-size: cover;
 }
 
 /* Laura ends tjek */
