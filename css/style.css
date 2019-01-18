@@ -37,7 +37,7 @@ color: #222222;
 }
 
 .header {
-max-width:1200px;
+max-width:1260px;
 }
 
 
@@ -112,9 +112,9 @@ padding: 30px;
   }
 }
 .slider{
-height: 100%;
-width: auto;
+width: 100vh;
 background-position: top;
 background-repeat: no-repeat;
 }
+
 /* Laura ends tjek */
