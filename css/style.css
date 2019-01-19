@@ -37,16 +37,8 @@ color: #222222;
 }
 
 .header {
-max-width:1346px;
-}
-
-
-.container{
-width:1290px;
-display: inline-block;
 position: fixed;
-padding-left: 55px;
-padding-right: 55px;
+width:100%;
 }
 
 @media (min-width: 1260px){
@@ -54,6 +46,8 @@ padding-right: 55px;
 max-width:1290px;
 padding-left: 20px;
 padding-right: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 }
 /*nevisai supratau, ka padariau,.. ..*/
