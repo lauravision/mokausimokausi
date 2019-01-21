@@ -11,8 +11,26 @@
     <script type="text/javascript" src='js/main.js'></script>
 
     <!-- Laura's code start -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://spans.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+            jQuery(document).ready(function(){
+            jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+             width:jQuery(this).attr('data-percent')
+           },6000);
+              });
+              });
+
+    </script>
+
+
+
+
+
 </head>
 <body>
     <header class="header">
@@ -31,7 +49,7 @@
         </nav>
 
         <div class="icons">
-            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/laura.croftlauridsen"> <i class="fab fa-facebook-f"></i></a>
             <a href="#"> <i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </div>
@@ -39,35 +57,35 @@
     </header>
 
     <div class="slider">
-      <img src="images/desktop3.jpg" alt="desktop">
+      <img src="images/desktop0.jpg" alt="desktop">
     </div>
 
 
     <section class="om-mig">
       <div class="container">
         <div class="grey-background">
-            <h1> OM MIG </h1>
+            <h2> OM MIG </h2>
             <img src="images/laura.jpg" alt"laura croft">
             <div class= "text-box">
             <p>
               Velkommen til Lauravision.dk <br>
-							<br>Jeg hedder <font color="#16adfc">Laura</font>. Jeg er tidligere uddannet som musiklærer og har spillet <font color="#16adfc">violin</font> i mere end 25 år.<br>
-							Lige nu studerer jeg til <font color="#16adfc">multimediedesigner</font> på 3. semester og brænder for at skabe visuelt. <br>
-							Mine ydningsprogrammer er - <font color="#16adfc">Adobe Lightroom, Photoshop og Illustrator</font> og kan derudover anvende næsten hele Adobe pakken.
+							<br>Jeg hedder <span class="color-blue">Laura</span>. Jeg er tidligere uddannet som musiklærer og har spillet <span class="color-blue">violin</span> i mere end 25 år.<br>
+							Lige nu studerer jeg til <span class="color-blue">multimediedesigner</span> på 3. semester og brænder for at skabe visuelt. <br>
+							Mine ydningsprogrammer er - <span class="color-blue">Adobe Lightroom, Photoshop og Illustrator</span> og kan derudover anvende næsten hele Adobe pakken.
 							<br>
-							Bortset fra grafisk design og webdesign, som lige nu tager hele min fritid efter skolen er jeg også interesseret i <font color="#16adfc">fotografi</font>. Har arbejdet som <font color="#16adfc">freelance fotografassistent</font> med nogen dygtige fotografer her i Danmark -
-							<font color="#16adfc">Steffen Stamp</font>, <font color="#16adfc">Ard Jongsma</font>. Jeg får også engang imellem opgaver som freelance fotograf, har samarbejdet i flere år med <font color="#16adfc">WeCreateMagic</font> team, som skaber audio-video <font color="#16adfc">3D lysshow</font>.
+							Bortset fra grafisk design og webdesign, som lige nu tager hele min fritid efter skolen er jeg også interesseret i <span class="color-blue">fotografi</span>. Har arbejdet som <span class="color-blue">freelance fotografassistent</span> med nogen dygtige fotografer her i Danmark -
+							<span class="color-blue">Steffen Stamp</span>, <span class="color-blue">Ard Jongsma</span>. Jeg får også engang imellem opgaver som freelance fotograf, har samarbejdet i flere år med <span class="color-blue">WeCreateMagic</span> team, som skaber audio-video <span class="color-blue">3D lysshow</span>.
 							Jeg tager typisk billeder i belysning, som findes på stedet, og er derudover super god til aftens og nattebilleder.
-							<br>Elsker at kigge på stjerner og er en absolut fan af <font color="#16adfc">blue hour photography</font>!
+							<br>Elsker at kigge på stjerner og er en absolut fan af <span class="color-blue">blue hour photography</span>!
 							<br>
 							<br>
 							I min fritid hjælper jeg mine venner og veninder med nogle opgaver, hvor jeg kan prøve at bruge al min viden og kompetencer, som jeg har fået gennem studier.
               <br>Man kan næsten ikke finde en mere flittig person end mig, for jeg lærer og udvikler mig personligt og fagligt hver eneste dag.
 							<br>
 
-							Mine <font color="#16adfc">fritidsinteresser</font> er kunst, psykologi, meditation, mindfulness, økologi og musik.
+							Mine <span class="color-blue">fritidsinteresser</span> er kunst, psykologi, meditation, mindfulness, økologi og musik.
 							<br>
-							Kunne jeg være spændende som din <font color="#16adfc">medarbejder</font> eller <font color="#16adfc">praktikant</font>? Eller måske har du bare en lille opgave til mig? Så lad os <font color="#16adfc">snakke sammen</font>.
+							Kunne jeg være spændende som din <span class="color-blue">medarbejder</span> eller <span class="color-blue">praktikant</span>? Eller måske har du bare en lille opgave til mig? Så lad os <span class="color-blue">snakke sammen</span>.
 						</p>
             </p>
             </div>
@@ -78,18 +96,18 @@
 
     <section class="kompetencer">
       <div class="container">
-        <h1>MINE KOMPETENCER</h1>
+        <h2>MINE KOMPETENCER</h2>
         <div class="section group">
           <div class="col span_1_of_2">
-            <div class="skillbar clearfix " data-percent="70%">
-              <div class="skillbar-title" style="background: #1980b9;"><span>HTML/CSS/SASS</span></div>
-              <div class="skillbar-bar" style="background: #16adfc;"></div>
+            <div class="skillbar clearfix" data-percent="70%">
+              <div class="skillbar-title color-aqua"><span>HTML/CSS/SASS</span></div>
+              <div class="skillbar-bar color-aqua"></div>
               <div class="skill-bar-percent">70%</div>
             </div>
 
-            <div class="skillbar clearfix " data-percent="50%">
-              <div class="skillbar-title" style="background: #1980b9;"><span>Javascript/jQuery</span></div>
-              <div class="skillbar-bar" style="background: #16adfc;"></div>
+            <div class="skillbar clearfix" data-percent="50%">
+              <div class="skillbar-title color-blueblue"><span>Javascript/jQuery</span></div>
+              <div class="skillbar-bar color-blueblue"></div>
               <div class="skill-bar-percent">50%</div>
             </div>
 
@@ -106,8 +124,8 @@
             </div>
 
             <div class="skillbar clearfix " data-percent="85%">
-              <div class="skillbar-title" style="background: #1980b9;"><span>Adobe Illustrator</span></div>
-              <div class="skillbar-bar" style="background: #16adfc;"></div>
+              <div class="skillbar-title color-blueblue"><span>Adobe Illustrator</span></div>
+              <div class="skillbar-bar color-blueblue"></div>
               <div class="skill-bar-percent">85%</div>
             </div>
           </div>
